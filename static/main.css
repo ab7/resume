@@ -1,0 +1,126 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-image: url("background.png");
+  background-repeat: repeat;
+  font-size: 110%;
+  margin: 0;
+  position: absolute;
+}
+
+aside {
+  background-color: #B1B1B1;
+  float: left;
+  height: 100%;
+  position: fixed;
+  width: 20%;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+h3 {
+  color: #323336;
+  font: 2em/40% Verdana;
+  font-weight: bold;
+}
+
+em {
+  color: #323336;
+  font-size: 1em;
+}
+
+p {
+  color: #494B50;
+  font: 1em Verdana;
+  padding: 0 0 15px 15px;
+}
+
+img {
+  border: 0;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th {
+  color: #323336;
+  font: 1.5em Arial;
+  padding: 0 6px;
+  text-align: left;
+}
+
+td {
+  color: #494B50;
+  font: 1em Verdana;
+  padding: 0px 6px;
+}
+  td:nth-child(3) {
+  float: right;
+  }
+
+li {
+  color: #494B50;
+  font: 1em Arial;
+}
+
+section {
+  display: block;
+  margin: 15px 25px;
+  padding: 1px 10px;
+  width: 85%;
+}
+
+header {
+  display: block;
+  margin: 25px 25px;
+  position: absolute;
+}
+
+.company {  
+  color: #323336;
+  display: inline-block;
+  font: 1.5em Arial;
+  text-align: left;
+}
+
+.line_set {
+  line-height: 50%;
+  display: inline;
+}
+
+.content {
+  float: right;
+  position: relative;
+  width: 80.5%;
+}
+
+#education {
+  padding-bottom: 20px;
+}
+
+.link {
+  position: relative;
+  top: 25%;
+  margin: 30px auto;
+  width: 60px;
+}
